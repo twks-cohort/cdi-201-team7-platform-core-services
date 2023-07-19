@@ -6,7 +6,7 @@
     "stack_management_token": "{{ op://cohorts/team7-201-platform-vcluster/team7201stack_management_sa_key }}",
     "prometheus_endpoint": "{{ op://cohorts/team07-201-platform-vcluster/prometheus_endpoint }}",
     "prometheus_password": "{{ op://cohorts/team07-201-platform-vcluster/prometheus_password }}",
-    "node_exporter_port": "9100 + Team#",
+    "node_exporter_port": "9107",
     "metrics_server_version": "v0.6.3",
     "prometheus_version": "v2.42.0",
     "grafana_agent_version": "v0.33.1",
