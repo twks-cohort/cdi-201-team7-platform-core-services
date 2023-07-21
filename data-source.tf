@@ -6,7 +6,7 @@ provider "grafana" {
 resource "grafana_data_source" "prometheus" {
   type                = "prometheus"
   name                = "cohort-prometheus"
-  url                 = "http://${var.prometheus_endpoint}"
+  url                 = "https://${var.prometheus_endpoint}"
   is_default          = true
   basic_auth_enabled  = true
   basic_auth_username = "admin"
